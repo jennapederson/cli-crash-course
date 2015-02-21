@@ -8,9 +8,9 @@ You're good to go!
 
 ## Windows or Chromebook
 
-You have a couple of options.
+If you're using Windows or a Chromebook (or even an [iPad](http://help.nitrous.io/coding-on-ipad/)), your best option and the one that we will be supporting during this workshop is to use [Nitrous.io](https://www.nitrous.io/join/MommurvvT9A?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral).
 
-### Use Nitrous.io (RECOMMENDED)
+### Use Nitrous.io
 
 [Nitrous.io](https://www.nitrous.io/join/MommurvvT9A?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral) is an excellent way to "code in the cloud". It lets you quickly spin up a "box" with your favorite development environment already installed and lets you share it with others. This approach is done right in your browser. This is FREE unless you want extra options, space, etc, which you will not need for this workshop.
 
@@ -26,12 +26,4 @@ You have a couple of options.
 
 ![Nitrous IDE](img/NitrousIDE.png)
 
-### Install Cygwin (LAST RESORT)
-
-If you want to run these commands on your Windows computer, you can also use Cygwin, a tool that lets you use the GNU and Open Source tools in a Windows environment in a way that is similar to Linux.
-
-1. Download [Cygwin](https://cygwin.com/install.html)
-1. Run the downloaded exe file by double-clicking on it
-1. Use the default installation options
-1. When prompted to Choose a Download Site, select one in the U.S. (closer to you the quicker it will download)
-1. Continue through the installation with the default options
+#### Now you're ready for the workshop. See you there!
