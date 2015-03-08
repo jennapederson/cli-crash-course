@@ -6,7 +6,7 @@ In this workshop, you’ll learn:
 
 - what is so great about the command line and why it’s important
 - the basics of the bash shell
-- basics for using Vi(m)
+- basics for using Vim
 - how to configure your shell
 - tips and tricks for being productive
 
@@ -15,4 +15,24 @@ NOTE: This workshop will be focusing on the bash shell, typically used in *nix s
 ## Content
 
 - [Setup](setup.md)
-- more stuff coming soon!
+- [Intro](01_intro.md)
+- [Getting Started](02_getting_started.md)
+- [Basics of the Bash Shell](03_bash_basics.md)
+- [Basic Commands](04_basic_commands.md)
+- [How to Not Hate Vim](05_vim.md)
+- [Permissions](06_permissions.md)
+- [Environment](07_environment.md)
+- [Reading User Input](08_read_user_input.md)
+- [Redirect Input and Output](09_redirection.md)
+- [Piping Commands Together](10_piping.md)
+- [Who Cares?](11_who_cares.md)
+- [Crossing the Bounds of Your Computer](12_remote.md)
+- [Super User](13_super_user.md)
+
+### Miscellaneous, Tips, Tricks, Advanced Concepts
+
+- [Dotfiles](14_dotfiles.md)
+- [Customizing Your Shell](15_shell_customization.md)
+- [Navigating the Command Line 2.0](16_navigate_cli_2.md)
+- [More Commands & Tools](17_commands_and_tools.md)
+- [Xargs](18_xargs.md)
