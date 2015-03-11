@@ -47,3 +47,4 @@ NOTE: This workshop will be focusing on the bash shell, typically used in *nix s
 - http://stackoverflow.com/questions/68372/what-is-your-single-most-favorite-command-line-trick-using-bash
 - https://github.com/matthewmccullough/dotfiles/blob/master/bash_gitprompt
 - https://dotfiles.github.io/
+- http://www.opsschool.org/
