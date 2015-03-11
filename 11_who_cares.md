@@ -19,7 +19,7 @@ This can be useful because this command will output the process id. You could ev
 
 ### To see your favorite commands
 
-You can pipe the output of history to awk, which  will scan it and print the second argument (the command) of each line to output. The output from awk gets piped into sort, which sorts it alphabetically. The sorted output is piped to uniq and prefixes the command with it's count. This is then piped to the sort command again, but it’s now sorted reverse numerically. Finally this is piped to head, which will display (by default) the first 10 lines of it’s input.
+You can pipe the output of history to awk, which  will scan it and print the second argument (the command) of each line to output. The output from awk gets piped into sort, which sorts it alphabetically. The sorted output is piped to uniq and prefixes the command with its count. This is then piped to the sort command again, but it’s now sorted reverse numerically. Finally this is piped to head, which will display (by default) the first 10 lines of its input.
 
 ```
 action@cli-crash-course-197957:~$ history | awk '{print $2}' | sort | uniq -c | sort -rn | head
@@ -33,6 +33,27 @@ action@cli-crash-course-197957:~$ history | awk '{print $2}' | sort | uniq -c | 
  149 rake
  141 rvm
  134 bundle
+```
+
+### To see what's taking up so much room in your iTunes library:
+
+The "du" command checks disk usage. We're going to check the size in kilobyte blocks for all the directories/files in a given directory.
+
+```
+
+action@cli-crash-course-197957:~$ cd ~/Music/iTunes/iTunes\ Music/
+action@cli-crash-course-197957:iTunes Music $ du -k * | sort -nr | head
+6508996	Home Videos
+4120428	Compilations
+3941588	Podcasts
+1422264	Unknown Artist
+920048	Bob Dylan
+604792	VNV Nation
+597572	Stromkern
+560444	Led Zeppelin
+544968	Various Artists
+506908	Common Rotation
+action@cli-crash-course-197957:iTunes Music $ 
 ```
 
 ## Recommendation

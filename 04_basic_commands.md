@@ -1,7 +1,7 @@
 # Basic Commands
 
 #### Memorize these commands and their basic usage. These will help you navigate, and view and manage files.
-- pwd - print working (current) directory
+- pwd - print current working directory
 - cd - change directory
 - mkdir - make directory
 - ls - list
@@ -25,6 +25,8 @@
 - CTRL-a - go to the beginning of the line
 - CTRL-e - go to the end of the line
 - CTRL-_ - undo last change
+- CTRL-u - put everything back to the beginning of the line in your shell's copy buffer
+- CTRL-y - bring back everything from the shell's copy buffer and add it your commands
 - CMD-t - creates a new tab in Terminal (OSX); do this manually via mouse in Nitrous.io
 - q - quit commands like less or man to return to the command line
 - CTRL-c - stop running commands

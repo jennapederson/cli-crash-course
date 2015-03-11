@@ -23,7 +23,7 @@ ls
 
 To execute the command you have typed, press enter.
 
-When it runs, it may print output to the screen. You will know it has completed when the command prompt is displayed again. The command line is then ready for new commands.
+When it runs, it may (or may not!) print output to the screen. You will know it has completed when the command prompt is displayed again. The command line is then ready for new commands.
 
 ```
 action@cli-crash-course-197957:~$
@@ -51,7 +51,7 @@ action@cli-crash-course-197957:~$ cp -R source destination
 
 ## Man Pages
 
-Now is a good time to talk about man pages. Man pages are reference manuals for commands. They show the allowed formats of a command, it’s options, and arguments as well as deeper explanations of each.
+Now is a good time to talk about man pages. Man pages are reference manuals for commands. They show the allowed formats of a command, its options, and arguments as well as deeper explanations of each.
 
 Try this now:
 
@@ -67,11 +67,11 @@ There are a few characters we need to know before we go into detail.
 
 ### The tilde: ~
 
-The tilde is shortcut representing our home directory. If you use it in a command, it will expand the path for you automatically. For example: ~/is_cool would expand to /Users/jennapederson/is_cool. 
+The tilde is a shortcut representing your home directory. If you use it in a command, it will expand the path for you automatically. For example: ~/is_cool would expand to /Users/jennapederson/is_cool. 
 
 ### A single period: .
 
-The single period represents your current directory. You will commonly see this when executing a script from the current directory. For example: ./script.sh. We’ll cover this in more detail in a future section.
+The single period represents your current working directory. You will commonly see this when executing a script from the current working directory. For example: ./script.sh. We’ll cover this in more detail in a future section.
 
 ### A double period: ..
 

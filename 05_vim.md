@@ -2,7 +2,7 @@
 
 You will eventually need to change a file and you won’t have access to a graphical editor like your IDE or Sublime Text. The most common text editor that is installed at the command line is Vi or Vim. Vim is the “improved” version of Vi and should be available to you.
 
-Vim is an intricate beast. Here we will cover the basics to get you in and out of Vim, find something with in the file, and make a couple of changes to a file.
+Vim is an intricate beast. Here we will cover the basics to get you in and out of Vim, find something within the file, and make a couple of changes to a file.
 
 ## Vim Has Two Modes
 - Command mode - allows you to execute commands on the file
@@ -39,7 +39,7 @@ action@cli-crash-course-197957:~$ vim hello_world.sh
 Type the following into the file (we will be using this later):
 ```
 #!/bin/bash
-echo “Hello World!"
+echo "Hello World!"
 ```
 
 ## What is #!/bin/bash and When Do I Need It?

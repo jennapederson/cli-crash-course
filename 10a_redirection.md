@@ -39,4 +39,4 @@ action@cli-crash-course-197957:~$ less output.txt
 
 Notice how we used both input redirection and output redirection here. We are starting to touch on one of the very powerful features of using the command line: stringing commands together.
 
-The alternative output redirection command is to use >>. This will append to the output file.
+Note that `>` will overwrite an existing target file. The alternative output redirection command is to use `>>`. This will append to the output file.
