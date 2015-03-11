@@ -27,6 +27,7 @@
 - CTRL-_ - undo last change
 - CTRL-u - put everything back to the beginning of the line in your shell's copy buffer
 - CTRL-y - bring back everything from the shell's copy buffer and add it your commands
+- CTRL-k - kill/delete to the end of the line
 - CMD-t - creates a new tab in Terminal (OSX); do this manually via mouse in Nitrous.io
 - q - quit commands like less or man to return to the command line
 - CTRL-c - stop running commands
