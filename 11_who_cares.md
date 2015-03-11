@@ -4,7 +4,7 @@ Why is all of this so important?
 
 ### POWER!
 
-In a unix environment, each command is meant to do one and only one thing. Chaining commands together using redireciton and piping lets each command can talk to other commands. This gives you flexibility and it can make you more productive.
+In a unix environment, each command is meant to do one and only one thing. By chaining commands and data together using piping and redirection you get more flexibility.
 
 ## Examples
 

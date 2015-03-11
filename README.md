@@ -23,8 +23,9 @@ NOTE: This workshop will be focusing on the bash shell, typically used in *nix s
 - [Permissions](06_permissions.md)
 - [Environment](07_environment.md)
 - [Reading User Input](08_read_user_input.md)
-- [Redirect Input and Output](09_redirection.md)
-- [Piping Commands Together](10_piping.md)
+- [Connecting Things Together](09_connecting_things_together.md)
+ - [Redirect Input and Output](10a_redirection.md)
+ - [Piping Commands Together](10b_piping.md)
 - [Who Cares?](11_who_cares.md)
 - [Crossing the Bounds of Your Computer](12_remote.md)
 - [Super User](13_super_user.md)
@@ -36,3 +37,13 @@ NOTE: This workshop will be focusing on the bash shell, typically used in *nix s
 - [Navigating the Command Line 2.0](16_navigate_cli_2.md)
 - [More Commands & Tools](17_commands_and_tools.md)
 - [Xargs](18_xargs.md)
+
+### Resources
+
+- http://www.gnu.org/software/bash/manual/html_node/index.html
+- http://www.commandlinefu.com/
+- http://www.shell-fu.org/
+- http://cli.learncodethehardway.org/book/
+- http://stackoverflow.com/questions/68372/what-is-your-single-most-favorite-command-line-trick-using-bash
+- https://github.com/matthewmccullough/dotfiles/blob/master/bash_gitprompt
+- https://dotfiles.github.io/

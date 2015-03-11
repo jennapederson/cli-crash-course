@@ -2,9 +2,9 @@
 
 ## Redirecting Input From a File
 
-You can also read from stdin by using redirection. This is a common operation - you may want to run a command and suck in some data from another file or process. In this case, we will redirect from a file.
+Taking the previous example, let's read in data from a stdin using file redirection.
 
-Let’s edit the hello_world.sh file using vim to read a file from stdin:
+Edit the hello_world.sh file using vim to read a file from stdin:
 ```
 #!/bin/bash
 # the read command reads data from stdin
@@ -29,7 +29,7 @@ Hello World, Twin Cities Geekettes!
 
 ## Redirecting Output
 
-Sometimes we don’t want our output to go to the screen, but to a file or to another process. In this case, we can redirect the output.
+Sometimes we don’t want our output to go to the screen, but to a file.
 
 Try this now [ex. 6](example6):
 ```
