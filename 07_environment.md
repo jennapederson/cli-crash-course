@@ -7,7 +7,7 @@ Try this now:
 action@cli-crash-course-197957:~$ env
 ```
 
-This prints out the environment in it’s current state.
+This prints out the environment in its current state.
 
 ## To Set a Variable for a Process
 

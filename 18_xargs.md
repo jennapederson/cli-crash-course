@@ -1,6 +1,6 @@
-# Xargs
+# xargs
 
-Xargs is a command to read from stdin, which is a stream of data, and convert each line into arguments that are passed to another command.
+xargs is a command to read from stdin, which is a stream of data, and convert each line into arguments that are passed to another command.
 
 Our hello_world.sh [ex. 3](example3) took in two command line arguments like this:
 
