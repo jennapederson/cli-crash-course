@@ -20,7 +20,7 @@
 #### Tips to Navigating the Command Line
 - up arrow - recall a previous command
 - !123 - recall command number 123
-- tab key - auto-complete a command or file name
+- tab key - auto-complete a command or file name; hit tab twice to show options
 - clear - command to clear the screen
 - CTRL-a - go to the beginning of the line
 - CTRL-e - go to the end of the line
