@@ -15,4 +15,5 @@ total 4
 -rwxr--r-- 1 jenna jenna 137 Mar  7 19:48 hello_world_remote.sh
 ```
 
-[Who Cares?](11_who_cares.md)	[Super User](13_super_user.md)
+Back: [Who Cares?](11_who_cares.md)	
+Forward: [Super User](13_super_user.md)

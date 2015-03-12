@@ -4,3 +4,5 @@ Below are the instructions for getting setup for Don’t Let the CLI Scare You: 
 
 - [Linux/Unix/OS X](setup-nix.md)
 - [Windows or Chromebook](setup-windows.md)
+
+Forward: [Intro](01_intro.md)

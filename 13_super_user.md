@@ -38,4 +38,5 @@ action@cli-crash-course-197957:~$ sudo touch ~kristen/hello_world.sh
 
 Both su and sudo can be potentially dangerous. The root user has access to do anything. If I use sudo to delete another user's home directory or even more devastating, the root directory, /, I could cause some big problems. There are often better ways of implementing security without giving away the root user password (for su) or giving someone sudoer access (for sudo) such as using file permissions with groups.
 
-[Crossing the Bounds of Your Computer](12_remote.md)	[Dotfiles](14_dotfiles.md)
+Back: [Crossing the Bounds of Your Computer](12_remote.md)	
+Forward: [Dotfiles](14_dotfiles.md)

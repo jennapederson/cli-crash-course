@@ -22,4 +22,5 @@ action@cli-crash-course-197957:~$ cat names.txt | xargs ./hello_world.sh
 Hello World, Jenna Pederson!
 ```
 
-[More Commands & Tools](17_commands_and_tools.md)	[Setup](setup.md)
+Back: [More Commands & Tools](17_commands_and_tools.md)	
+Forward: [Setup](setup.md)

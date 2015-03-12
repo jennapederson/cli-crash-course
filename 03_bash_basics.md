@@ -77,4 +77,5 @@ The single period represents your current working directory. You will commonly s
 
 The double period represents the parent directory. You’ll use this momentarily when changing directories. For example: cd ../somewhere_else_in_the_parent_directory
 
-[Getting Started](02_getting_started.md)	[Basic Commands](04_basic_commands.md)
+Back: [Getting Started](02_getting_started.md)	
+Forward: [Basic Commands](04_basic_commands.md)

@@ -7,4 +7,5 @@
 - `fg` - foreground a suspended or backgrounded command
 - `&` at the end of a command - run it backgrounded to begin with
 
-[Customizing Your Shell](15_shell_customization.md)	[More Commands & Tools](17_commands_and_tools.md)
+Back: [Customizing Your Shell](15_shell_customization.md)	
+Forward: [More Commands & Tools](17_commands_and_tools.md)

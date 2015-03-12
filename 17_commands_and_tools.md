@@ -18,4 +18,5 @@ TODO
 
 https://help.github.com/articles/generating-ssh-keys/
 
-[Navigating the Command Line 2.0](16_navigate_cli_2.md)	[Xargs](18_xargs.md)
+Back: [Navigating the Command Line 2.0](16_navigate_cli_2.md)	
+Forward: [Xargs](18_xargs.md)

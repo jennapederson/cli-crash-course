@@ -46,4 +46,5 @@ echo "Hello World!"
 
 The #!/bin/bash is commonly referred to as “Hash bang bin bash” or even “She bang”. The file type suffix is merely a convention. An executable can be any type of script - sh, bash, perl, php, ruby, python, etc. This line of code indicates which shell to use.
 
-[Basic Commands](04_basic_commands.md)	[Permissions](06_permissions.md)
+Back: [Basic Commands](04_basic_commands.md)	
+Forward: [Permissions](06_permissions.md)

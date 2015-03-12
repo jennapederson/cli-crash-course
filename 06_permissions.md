@@ -55,4 +55,5 @@ action@cli-crash-course-197957:~$ ./hello_world.sh
 Hello World!
 ```
 
-[How to Not Hate Vim](05_vim.md)	[Environment](07_environment.md)
+Back: [How to Not Hate Vim](05_vim.md)	
+Forward: [Environment](07_environment.md)

@@ -60,4 +60,5 @@ action@cli-crash-course-197957:iTunes Music $
 
 When stringing commands together like this, test them each individually to build up the final command.
 
-[Connecting Things Together](09_connecting_things_together.md)	[Crossing the Bounds of Your Computer](12_remote.md)
+Back: [Connecting Things Together](09_connecting_things_together.md)	
+Forward: [Crossing the Bounds of Your Computer](12_remote.md)

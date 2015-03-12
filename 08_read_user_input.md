@@ -39,4 +39,5 @@ What is your name? Jenna Pederson
 Hello World, Jenna Pederson!
 ```
 
-[Environment](07_environment.md)	[Connecting Things Together](09_connecting_things_together.md)
+Back: [Environment](07_environment.md)	
+Forward: [Connecting Things Together](09_connecting_things_together.md)
