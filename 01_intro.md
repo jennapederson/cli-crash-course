@@ -37,3 +37,6 @@ for file in *.png; do convert $file -resize 100x100 100x100-$file; done
 ```
 
 Additionally, many technical documents, tutorials, how to docs assume some knowledge of the command line. Some of the best development tools are specifically meant to run at the command line and not through a graphical interface - grunt, apache, node, etc.
+
+Back: [Setup](setup.md)	
+Forward: [Getting Started](02_getting_started.md)

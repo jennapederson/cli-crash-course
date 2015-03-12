@@ -17,3 +17,6 @@ TODO
 ## Create an SSH Key Pair for Github
 
 https://help.github.com/articles/generating-ssh-keys/
+
+Back: [Navigating the Command Line 2.0](16_navigate_cli_2.md)	
+Forward: [Xargs](18_xargs.md)

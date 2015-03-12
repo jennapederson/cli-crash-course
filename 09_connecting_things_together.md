@@ -17,3 +17,7 @@ Piping is all about processes.
 With piping, we connect the stdout of one command to the stdin of another command as if there were a pipe or a stream of data between the two.
 
 [Piping Commands Together](10b_piping.md)
+
+
+Back: [Reading User Input](08_read_user_input.md)	
+Forward: [Who Cares?](11_who_cares.md)

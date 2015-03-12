@@ -26,3 +26,6 @@ A couple notes:
 parse_git_branch is a function defined in the Nitrous .bashrc as well which figures out which branch you are currently on.
 
 You can implement this yourself with Matthew McCullough's dotfiles: https://github.com/matthewmccullough/dotfiles/blob/master/bash_gitprompt.
+
+Back: [Dotfiles](14_dotfiles.md)	
+Forward: [Navigating the Command Line 2.0](16_navigate_cli_2.md)

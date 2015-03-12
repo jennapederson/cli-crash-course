@@ -14,3 +14,6 @@ action@cli-crash-course-197957:~$ ssh jenna@612softwarefoundry.com ‘ls -l ~'
 total 4
 -rwxr--r-- 1 jenna jenna 137 Mar  7 19:48 hello_world_remote.sh
 ```
+
+Back: [Who Cares?](11_who_cares.md)	
+Forward: [Super User](13_super_user.md)

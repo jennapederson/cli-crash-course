@@ -54,3 +54,6 @@ Try this now [ex. 1](example1):
 action@cli-crash-course-197957:~$ ./hello_world.sh
 Hello World!
 ```
+
+Back: [How to Not Hate Vim](05_vim.md)	
+Forward: [Environment](07_environment.md)

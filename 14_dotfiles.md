@@ -12,3 +12,6 @@ action@cli-crash-course-197957:~$ ls -a
 ## Dotfile Resources
 
 GitHub has a great resource of other people's dotfiles: https://dotfiles.github.io/
+
+Back: [Super User](13_super_user.md)	
+Forward: [Customizing Your Shell](15_shell_customization.md)

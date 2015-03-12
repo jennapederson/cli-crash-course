@@ -38,3 +38,6 @@ action@cli-crash-course-197957:~$ ./hello_world.sh
 What is your name? Jenna Pederson
 Hello World, Jenna Pederson!
 ```
+
+Back: [Environment](07_environment.md)	
+Forward: [Connecting Things Together](09_connecting_things_together.md)

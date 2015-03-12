@@ -27,3 +27,6 @@ This workshop focuses on the [Bash](http://www.gnu.org/software/bash/manual/html
 On Nitrous.io, you will already be set up to use the Bash shell.
 
 On a Mac, you should have already looked at the setup and made sure you are using the Bash shell. If not, go there now.
+
+Back: [Intro](01_intro.md)	
+Forward: [Basics of the Bash Shell](03_bash_basics.md)

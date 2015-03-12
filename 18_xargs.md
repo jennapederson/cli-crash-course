@@ -21,3 +21,6 @@ Instead we can use xargs to convert from stdin to arguments [ex. 8](example8).
 action@cli-crash-course-197957:~$ cat names.txt | xargs ./hello_world.sh
 Hello World, Jenna Pederson!
 ```
+
+Back: [More Commands & Tools](17_commands_and_tools.md)	
+Forward: [Setup](setup.md)
