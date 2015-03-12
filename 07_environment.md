@@ -53,3 +53,5 @@ action@cli-crash-course-197957:~$ env | grep HELLO_WORLD_NAME
 We’ve seen the dollar sign in the last couple examples. This is a special character that does parameter expansion. In the case of our environment variables, when we printed out "Hello World, $HELLO_WORLD_NAME!”, it expanded to the value of our variable.
 
 We can do the same with arguments to our shell script.
+
+[Permissions](06_permissions.md)	[Reading User Input](08_read_user_input.md)

@@ -39,3 +39,5 @@ Try this now:
 ```
 action@cli-crash-course-197957:~$
 ```
+
+[Basics of the Bash Shell](03_bash_basics.md)		[How to Not Hate Vim](05_vim.md)
