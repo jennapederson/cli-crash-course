@@ -23,7 +23,8 @@ When you open the editor, you will be in Command mode. To get back into Command 
 - u - undo last change
 - /your_search_term - to search for your_search_term
 - n - search again for your_search_term
-- yy - yank a line of text (copy)
+- yy - yank a line of text (copy the line)
+- yw - yank a word of text (copy the word)
 - p - paste the yanked text
 - :q - quit
 - :q! - quit without saving changes
