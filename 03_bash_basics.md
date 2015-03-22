@@ -49,6 +49,12 @@ action@cli-crash-course-197957:~$ cp -R source destination
 - -R is an option that indicates copy recursively
 - source and destination are both arguments to this command
 
+## Open Your Terminal
+
+- If you’re on a Mac, hit CMD+Space and type terminal. Hit enter after selecting Terminal.
+- If you’re using [Nitrous.io](https://www.nitrous.io/join/MommurvvT9A?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral), find the box you created using [these setup instructions](https://github.com/jennapederson/cli-crash-course/blob/master/setup.md). If the box is not started, click the orange Start button. When the box is started (indicated by a green circle icon), click the grey Terminal button.
+- If you're on Linux/Unix, open up the console or terminal application (it is assumed you already know how to do this).
+
 ## Man Pages
 
 Now is a good time to talk about man pages. Man pages are reference manuals for commands. They show the allowed formats of a command, its options, and arguments as well as deeper explanations of each.
@@ -60,22 +66,6 @@ action@cli-crash-course-197957:~$ man cp
 ```
 
 User your up/down arrows or the space bar to navigate through a man page. To exit a man page, press q.
-
-## What is ~, ., and ..?
-
-There are a few characters we need to know before we go into detail.
-
-### The tilde: ~
-
-The tilde is a shortcut representing your home directory. If you use it in a command, it will expand the path for you automatically. For example: ~/is_cool would expand to /Users/jennapederson/is_cool. 
-
-### A single period: .
-
-The single period represents your current working directory. You will commonly see this when executing a script from the current working directory. For example: ./script.sh. We’ll cover this in more detail in a future section.
-
-### A double period: ..
-
-The double period represents the parent directory. You’ll use this momentarily when changing directories. For example: cd ../somewhere_else_in_the_parent_directory
 
 Back: [Getting Started](02_getting_started.md)	
 Forward: [Basic Commands](04_basic_commands.md)
