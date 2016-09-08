@@ -1,6 +1,6 @@
 # Setup
 
-Below are the instructions for getting setup for Don’t Let the CLI Scare You: A Command Line Crash Course. Please be sure to complete these BEFORE attending the workshop so that we can be productive. If you have questions or issues, please reach out to @jennapederson on http://tcgeekettes.slack.com.
+Below are the instructions for getting setup for Don’t Let the CLI Scare You: A Command Line Crash Course. Please be sure to complete these BEFORE attending the workshop so that we can be productive. If you have questions or issues, please reach out to @jennapederson on https://twincitiesgeekettes.slack.com.
 
 We will all use [Cloud9](https://c9.io/) for this workshop, regardless of what kind of computer you are using. This will allow all of us to work in the same environment and have access to the same tools. Cloud9 is a development environment hosted in the cloud. You'll be able to access this from anywhere and collaborate with others. It lets you quickly spin up a "box" with your favorite development environment already installed and lets you share it with others. This approach is done right in your browser and is FREE (unless you want extra options, space, etc, which you will not need for this workshop).
 
