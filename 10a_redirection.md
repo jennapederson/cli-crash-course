@@ -22,7 +22,7 @@ Twin Cities Geekettes
 
 Try this now [ex. 5](example5):
 ```
-action@cli-crash-course-197957:~$ ./hello_world.sh < names.txt
+jennapederson:~/workspace $ ./hello_world.sh < names.txt
 Hello World, Jenna Pederson!
 Hello World, Twin Cities Geekettes!
 ```
@@ -33,8 +33,8 @@ Sometimes we don’t want our output to go to the screen, but to a file.
 
 Try this now [ex. 6](example6):
 ```
-action@cli-crash-course-197957:~$ ./hello_world.sh < names.txt > output.txt
-action@cli-crash-course-197957:~$ less output.txt
+jennapederson:~/workspace $ ./hello_world.sh < names.txt > output.txt
+jennapederson:~/workspace $ less output.txt
 ```
 
 Notice how we used both input redirection and output redirection here. We are starting to touch on one of the very powerful features of using the command line: stringing commands together.

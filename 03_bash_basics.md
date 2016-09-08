@@ -2,16 +2,16 @@
 
 ## What is a Command Prompt?
 
-The command prompt is a character or set of characters that indicate to the user that the command line is ready for input. It’s quite possible that yours will look different than mine, but quite frequently, it ends in a $ or > symbol. On Nitrous.io, it’s a $.
+The command prompt is a character or set of characters that indicate to the user that the command line is ready for input. It’s quite possible that yours will look different than mine, but quite frequently, it ends in a $ or > symbol. On Cloud9, it’s a $.
 
 ```
-action@cli-crash-course-197957:~$
+jennapederson:~/workspace $
 ```
 
 When you see instructions here or in other documentation, you will only type the command, omitting the command prompt. For example, when you see this:
 
 ```
-action@cli-crash-course-197957:~$ ls
+jennapederson:~/workspace $ ls
 ```
 
 You will only type this:
@@ -26,10 +26,10 @@ To execute the command you have typed, press enter.
 When it runs, it may (or may not!) print output to the screen. You will know it has completed when the command prompt is displayed again. The command line is then ready for new commands.
 
 ```
-action@cli-crash-course-197957:~$
-action@cli-crash-course-197957:~$ ls
+jennapederson:~/workspace $
+jennapederson:~/workspace $ ls
 Geekettes-1750x1750.png  images  README.md  workspace
-action@cli-crash-course-197957:~$
+jennapederson:~/workspace $
 ```
 
 ## Breaking Down a Command
@@ -37,23 +37,21 @@ action@cli-crash-course-197957:~$
 A command is made up of different parts: the main command, options, and arguments.
 
 ```
-action@cli-crash-course-197957:~$ command [OPTIONS] [ARG1] […ARGX]
+jennapederson:~/workspace $ command [OPTIONS] [ARG1] […ARGX]
 ```
 
 For example, the copy command takes options and two arguments:
 
 ```
-action@cli-crash-course-197957:~$ cp -R source destination
+jennapederson:~/workspace $ cp -R source destination
 ```
 - cp is the main command
 - -R is an option that indicates copy recursively
 - source and destination are both arguments to this command
 
-## Open Your Terminal
+## Open Your Cloud9 Workspace
 
-- If you’re on a Mac, hit CMD+Space and type terminal. Hit enter after selecting Terminal.
-- If you’re using [Nitrous.io](https://www.nitrous.io/join/MommurvvT9A?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral), find the box you created using [these setup instructions](https://github.com/jennapederson/cli-crash-course/blob/master/setup.md). If the box is not started, click the orange Start button. When the box is started (indicated by a green circle icon), click the grey Terminal button.
-- If you're on Linux/Unix, open up the console or terminal application (it is assumed you already know how to do this).
+Go to your [Cloud9 dashboard](https://c9.io/dashboard.html) and click Open for cli-crash-course workspace you have already created.
 
 ## Man Pages
 
@@ -62,7 +60,7 @@ Now is a good time to talk about man pages. Man pages are reference manuals for 
 Try this now:
 
 ```
-action@cli-crash-course-197957:~$ man cp
+jennapederson:~/workspace $ man cp
 ```
 
 User your up/down arrows or the space bar to navigate through a man page. To exit a man page, press q.

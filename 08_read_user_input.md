@@ -16,7 +16,7 @@ echo "Hello World, $1 $2!"
 
 Try this now [ex. 3](example3):
 ```
-action@cli-crash-course-197957:~$ ./hello_world.sh Jenna Pederson
+jennapederson:~/workspace $ ./hello_world.sh Jenna Pederson
 Hello World, Jenna Pederson!
 ```
 
@@ -34,7 +34,7 @@ echo "Hello World, $name!"
 
 Try this now [ex. 4](example4):
 ```
-action@cli-crash-course-197957:~$ ./hello_world.sh
+jennapederson:~/workspace $ ./hello_world.sh
 What is your name? Jenna Pederson
 Hello World, Jenna Pederson!
 ```

@@ -11,7 +11,7 @@ In a unix environment, each command is meant to do one and only one thing. By ch
 ### To see if a java process is running
 
 ```
-action@cli-crash-course-197957:~$ ps -ef | grep java
+jennapederson:~/workspace $ ps -ef | grep java
 ```
 
 This can be useful because this command will output the process id. You could even pipe this process id to the kill command to magically kill the java process that was running.
@@ -22,7 +22,7 @@ This can be useful because this command will output the process id. You could ev
 You can pipe the output of history to awk, which  will scan it and print the second argument (the command) of each line to output. The output from awk gets piped into sort, which sorts it alphabetically. The sorted output is piped to uniq and prefixes the command with its count. This is then piped to the sort command again, but it’s now sorted reverse numerically. Finally this is piped to head, which will display (by default) the first 10 lines of its input.
 
 ```
-action@cli-crash-course-197957:~$ history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+jennapederson:~/workspace $ history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 3425 git
 1256 cd
  930 ls
@@ -41,7 +41,7 @@ The "du" command checks disk usage. We're going to check the size in kilobyte bl
 
 ```
 
-action@cli-crash-course-197957:~$ cd ~/Music/iTunes/iTunes\ Music/
+jennapederson:~/workspace $ cd ~/Music/iTunes/iTunes\ Music/
 action@cli-crash-course-197957:iTunes Music $ du -k * | sort -nr | head
 6508996	Home Videos
 4120428	Compilations

@@ -5,14 +5,10 @@
 This will serve the files in the current directory from a web server.
 
 ```
-action@cli-crash-course-197957:~$ python -m SimpleHTTPServer
+jennapederson:~/workspace $ python -m SimpleHTTPServer
 ```
 
 Now navigate to [http://localhost:8000](http://localhost:8000).
-
-## Tmux
-
-TODO
 
 ## Create an SSH Key Pair for Github
 

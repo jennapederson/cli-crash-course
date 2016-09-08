@@ -14,7 +14,7 @@ Files and directories have different levels of permissions which indicate who ca
 
 Try this now:
 ```
-action@cli-crash-course-197957:~$ ls -l
+jennapederson:~/workspace $ ls -l
 total 3020
 -rw-rw-r-- 1 action action 3065895 Feb 28 20:20 Geekettes-1750x1750.png
 -rw-rw-r-- 1 action action      51 Mar  2 04:17 hello_world.sh
@@ -36,8 +36,8 @@ To make the hello_world.sh file executable, we will add execute permissions to t
 
 Try this now:
 ```
-action@cli-crash-course-197957:~$ chmod u+x hello_world.sh
-action@cli-crash-course-197957:~$ ls -l
+jennapederson:~/workspace $ chmod u+x hello_world.sh
+jennapederson:~/workspace $ ls -l
 -rwxrw-r-- 1 action action      51 Mar  2 04:17 hello_world.sh
 ```
 
@@ -51,7 +51,7 @@ The very first bit, the special flag, usually will indicate whether it is direct
 
 Try this now [ex. 1](example1):
 ```
-action@cli-crash-course-197957:~$ ./hello_world.sh
+jennapederson:~/workspace $ ./hello_world.sh
 Hello World!
 ```
 

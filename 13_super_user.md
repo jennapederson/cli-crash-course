@@ -10,17 +10,17 @@ Use the su command to switch users. To do this, you need to know password of the
 
 To execute a specific command as a different user:
 ```
-action@cli-crash-course-197957:~$ su kristen -c touch ~kristen/hello_world.sh
+jennapederson:~/workspace $ su kristen -c touch ~kristen/hello_world.sh
 ```
 
 To execute all commands as a different user:
 ```
-action@cli-crash-course-197957:~$ su kristen
+jennapederson:~/workspace $ su kristen
 ```
 
 To execute commands as the root user:
 ```
-action@cli-crash-course-197957:~$ su
+jennapederson:~/workspace $ su
 ```
 
 su is not used as frequently as sudo because it requires you to know someone else's password. In order to remove access to that other user's account the password would need to be changed.
@@ -31,7 +31,7 @@ Use the sudo command to do something as the super/root user. It stands for "supe
 
 To execute a command as the root user:
 ```
-action@cli-crash-course-197957:~$ sudo touch ~kristen/hello_world.sh
+jennapederson:~/workspace $ sudo touch ~kristen/hello_world.sh
 ```
 
 ## A Word of Caution

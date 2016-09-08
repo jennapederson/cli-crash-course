@@ -23,20 +23,9 @@ Many tools you may be familiar with - your IDE, Finder/Windows Explorer, SourceT
 
 ### The command line crosses the bounds of your computer.
 - What if your datacenter is in New York and you reside in Minneapolis? How do you restart that web server? Fly to New York? Nope. You use the power of the command line and the Internet to run that command remotely.
+- What if your app runs in a cluster of servers and you want each of those to be identical? The command line is just a start to being able to automagically provision hundreds of servers with tools like [Ansible](https://www.ansible.com/), [Chef](https://www.chef.io/), and [Puppet](https://puppet.com/).
 
-As an example, what if you had a folder of 100 files that all needed to be renamed consistently? Would you use the Finder and rename them all manually? Yuck. We have better things to be doing. What if you could automate this at the command line?
-
-```
-for file in *.png; do mv "$file" "${file/_h.png/_half.png}"; done
-```
-
-What if you needed to resize a bunch of photos to 100x100? You could probably use Photoshop (and you Photoshop wizards can probably do this faster than I can type the line below). But what if you don’t have Photoshop or even want to open up the app? What if you’re on a server and there are no graphical tools? ImageMagick and a bash for loop to the rescue:
-
-```
-for file in *.png; do convert $file -resize 100x100 100x100-$file; done
-```
-
-Additionally, many technical documents, tutorials, how to docs assume some knowledge of the command line. Some of the best development tools are specifically meant to run at the command line and not through a graphical interface - grunt, apache, node, etc.
+Additionally, many technical documents, tutorials, how-to docs assume some knowledge of the command line. Some of the best development tools are specifically meant to run at the command line and not through a graphical interface - grunt, apache, node, etc.
 
 Back: [Setup](setup.md)	
 Forward: [Getting Started](02_getting_started.md)

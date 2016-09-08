@@ -18,10 +18,6 @@ A shell is an interface for accessing the underlying commands of an operating sy
 
 This workshop focuses on the [Bash](http://www.gnu.org/software/bash/manual/html_node/index.html) shell.
 
-On Nitrous.io, you will already be set up to use the Bash shell.
-
-On a Mac, you should have already looked at the setup and made sure you are using the Bash shell. If not, go there now.
-
 ## What is ~, ., and ..?
 
 There are a few characters we need to know before we go into more detail. These represent shortcuts to locations.

@@ -10,7 +10,9 @@ In this workshop, you’ll learn:
 - how to configure your shell
 - tips and tricks for being productive
 
-NOTE: This workshop will be focusing on the bash shell, typically used in *nix style environments like unix, linux and OSX/Mac. If you are using Windows or a Chromebook, no worries! You can use Nitrous.io to follow along. Be sure to run through the [Setup](setup.md) BEFORE you attend.
+NOTE: This workshop will be focusing on the bash shell, typically used in *nix style environments like unix, linux and OSX/Mac. To maintain consistency in exercises and development environments and to collaborate, we will all use [Cloud9](https://c9.io/).
+
+### Be sure to run through the [Setup](setup.md) BEFORE you attend.
 
 ## Content
 
