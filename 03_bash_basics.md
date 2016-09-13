@@ -40,7 +40,7 @@ A command is made up of different parts: the main command, options, and argument
 jennapederson:~/workspace $ command [OPTIONS] [ARG1] […ARGX]
 ```
 
-For example, the copy command takes options and two arguments:
+For example, the copy command `cp` takes options and two arguments:
 
 ```
 jennapederson:~/workspace $ cp -R source destination
@@ -51,7 +51,7 @@ jennapederson:~/workspace $ cp -R source destination
 
 ## Open Your Cloud9 Workspace
 
-Go to your [Cloud9 dashboard](https://c9.io/dashboard.html) and click Open for cli-crash-course workspace you have already created.
+Go to your [Cloud9 dashboard](https://c9.io/dashboard.html) and click Open for the cli-crash-course workspace you have already created.
 
 ## Man Pages
 
@@ -65,5 +65,5 @@ jennapederson:~/workspace $ man cp
 
 User your up/down arrows or the space bar to navigate through a man page. To exit a man page, press q.
 
-Back: [Getting Started](02_getting_started.md)	
+Back: [Getting Started](02_getting_started.md)
 Forward: [Basic Commands](04_basic_commands.md)

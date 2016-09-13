@@ -22,5 +22,5 @@ jennapederson:~/workspace $ cat names.txt | xargs ./hello_world.sh
 Hello World, Jenna Pederson!
 ```
 
-Back: [More Commands & Tools](17_commands_and_tools.md)	
-Forward: [Setup](setup.md)
+Back: [More Commands & Tools](17_commands_and_tools.md)
+Forward: [Back to the beginning](README.md)

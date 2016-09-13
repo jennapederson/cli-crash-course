@@ -54,5 +54,5 @@ We’ve seen the dollar sign in the last couple examples. This is a special char
 
 We can do the same with arguments to our shell script.
 
-Back: [Permissions](06_permissions.md)	
+Back: [Permissions](06_permissions.md)
 Forward: [Reading User Input](08_read_user_input.md)

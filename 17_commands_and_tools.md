@@ -14,5 +14,5 @@ Now navigate to [http://localhost:8000](http://localhost:8000).
 
 https://help.github.com/articles/generating-ssh-keys/
 
-Back: [Navigating the Command Line 2.0](16_navigate_cli_2.md)	
-Forward: [Xargs](18_xargs.md)
+Back: [Crossing the Bounds of Your Computer](12_remote.md)
+Forward: [Back to the beginning](README.md)

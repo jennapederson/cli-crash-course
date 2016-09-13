@@ -50,3 +50,4 @@ NOTE: This workshop will be focusing on the bash shell, typically used in *nix s
 - https://github.com/matthewmccullough/dotfiles/blob/master/bash_gitprompt
 - https://dotfiles.github.io/
 - http://www.opsschool.org/
+- https://twitter.com/climagic

@@ -22,10 +22,10 @@ Many tools you may be familiar with - your IDE, Finder/Windows Explorer, SourceT
 - They work the same across operating systems. Graphical tools very often do not, if they are even supported on all OSs.
 
 ### The command line crosses the bounds of your computer.
-- What if your datacenter is in New York and you reside in Minneapolis? How do you restart that web server? Fly to New York? Nope. You use the power of the command line and the Internet to run that command remotely.
+- What if your datacenter is at Amazon in New York and you reside in Minneapolis? How do you restart that web server? Fly to New York and knock on Amazon's door? Nope. You use the power of the command line and the Internet to run that command remotely.
 - What if your app runs in a cluster of servers and you want each of those to be identical? The command line is just a start to being able to automagically provision hundreds of servers with tools like [Ansible](https://www.ansible.com/), [Chef](https://www.chef.io/), and [Puppet](https://puppet.com/).
 
 Additionally, many technical documents, tutorials, how-to docs assume some knowledge of the command line. Some of the best development tools are specifically meant to run at the command line and not through a graphical interface - grunt, apache, node, etc.
 
-Back: [Setup](setup.md)	
+Back: [Setup](setup.md)
 Forward: [Getting Started](02_getting_started.md)

@@ -2,13 +2,13 @@
 
 ## Shell Script Arguments
 
-We’ve run two slightly different versions of a shell script now. Let’s make this more dynamic by consuming a command line argument when we run the script.
+Let’s make our script more dynamic by consuming a command line argument when we run the script.
 
-Command line arguments can be referenced using $# or ${##}, based on position in the command line.
+Command line arguments can be referenced using `$#` or `${##}`, based on position in the command line.
 
-First parameter would be $1, second parameter $2, 10th parameter would be ${10}.
+First parameter would be `$1`, second parameter `$2`, 10th parameter would be `${10}`.
 
-Let’s edit the hello_world.sh file using vim to use a command line argument:
+Let’s edit the `hello_world.sh` file using vim to use a command line argument:
 ```
 #!/bin/bash
 echo "Hello World, $1 $2!"
@@ -24,7 +24,7 @@ Hello World, Jenna Pederson!
 
 You can read input from a user interactively through stdin.
 
-Let’s edit the hello_world.sh file using vim to prompt and read user input from stdin:
+Let’s edit the `hello_world.sh` file using vim to prompt and read user input from stdin:
 ```
 #!/bin/bash
 echo -n "What is your name? "
@@ -39,5 +39,5 @@ What is your name? Jenna Pederson
 Hello World, Jenna Pederson!
 ```
 
-Back: [Environment](07_environment.md)	
+Back: [Permissions](06_permissions.md)
 Forward: [Connecting Things Together](09_connecting_things_together.md)
