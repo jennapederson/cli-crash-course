@@ -22,3 +22,6 @@ origin/features/feature1
 origin/features/feature2
 origin/features/feature3
 ```
+
+Back: [Redirect Input and Output](10a_redirection.md)
+Forward: [Who Cares?](11_who_cares.md)

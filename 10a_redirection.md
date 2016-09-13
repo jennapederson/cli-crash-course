@@ -40,3 +40,6 @@ jennapederson:~/workspace $ less output.txt
 Notice how we used both input redirection and output redirection here. We are starting to touch on one of the very powerful features of using the command line: stringing commands together.
 
 Note that `>` will overwrite an existing target file. The alternative output redirection command is to use `>>`. This will append to the output file.
+
+Back: [Connecting Things Together](09_connecting_things_together.md)
+Forward: [Piping Commands Together](10b_piping.md)

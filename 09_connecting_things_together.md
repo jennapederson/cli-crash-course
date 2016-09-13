@@ -19,5 +19,5 @@ With piping, we connect the stdout of one command to the stdin of another comman
 [Piping Commands Together](10b_piping.md)
 
 
-Back: [Reading User Input](08_read_user_input.md)	
-Forward: [Who Cares?](11_who_cares.md)
+Back: [Reading User Input](08_read_user_input.md)
+Forward: [Redirect Input and Output](10a_redirection.md)

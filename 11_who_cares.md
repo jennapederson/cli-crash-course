@@ -53,12 +53,12 @@ action@cli-crash-course-197957:iTunes Music $ du -k * | sort -nr | head
 560444	Led Zeppelin
 544968	Various Artists
 506908	Common Rotation
-action@cli-crash-course-197957:iTunes Music $ 
+action@cli-crash-course-197957:iTunes Music $
 ```
 
 ## Recommendation
 
 When stringing commands together like this, test them each individually to build up the final command.
 
-Back: [Connecting Things Together](09_connecting_things_together.md)	
+Back: [Piping Commands Together](10b_piping.md)
 Forward: [Crossing the Bounds of Your Computer](12_remote.md)
