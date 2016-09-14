@@ -16,6 +16,49 @@ jennapederson:~/workspace $ ps -ef | grep java
 
 This can be useful because this command will output the process id. You could even pipe this process id to the kill command to magically kill the java process that was running.
 
+### To find your favorite command
+
+I have my history set to remember something like 10k of the last commands I've typed but sometimes I don't remember what the specific command is I am looking for.
+
+```
+➜  vagrant git:(master) ✗ history | grep cap
+ 1866  git commit -m "Change to small caps and go back to default font size"
+ 1868  git commit -m "Change to small caps and go back to default font size"
+ 3906  git commit -m "Change to use on stateChangeSuccess; Fix how events are tracked so data is captured correctly"
+ 4449  git commit -m "Disable landscape orientation on android"
+ 7135  git commit -m "Change capistrano gems to not require dependencies"
+ 8058  which cap
+ 8077  rvm gemset create mynd-cap
+ 8079  rvm gemset use mynd-cap
+ 8088  rvm gemset use mynd-cap
+ 8103  cap staging deploy
+ 8107  cap staging deploy
+ 8156  cap staging deploy
+ 8186  cap production deploy
+ 8190  rvm gemset use mynd-cap
+ 8191  which cap
+ 8192  cap production deploy
+ 8471  cap -T
+ 8477  cap -T
+ 8595  history | grep cap
+ 8608  which cap
+ 9233  cap production deploy
+ 9236  rvm gemset use mynd-cap
+ 9237  cap production deploy
+ 9861  rvm gemset create cornerhouse-cap
+ 9866  cp ~/Downloads/capistrano-git-subdir.zip .
+ 9867  gunzip capistrano-git-subdir.zip
+ 9871  cd capistrano-git-subdir
+ 9877  rvm gemset use cornerhouse-cap
+ 9881  cap -T
+ 9882  cap staging unicorn:restart
+ 9883  cap -T
+10009  rvm gemset use cornerhouse-cap
+10010  history | grep cap
+10012  cap -T
+10016  cap staging deploy
+10018  cap staging deploy
+```
 
 ### To see your favorite commands
 
