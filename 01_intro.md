@@ -1,6 +1,6 @@
 # Intro
 
-## Did you run through the setup yes?
+## Did you run through the setup yep?
 
 [Setup](setup.md)
 
