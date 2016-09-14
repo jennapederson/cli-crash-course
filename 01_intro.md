@@ -1,5 +1,9 @@
 # Intro
 
+## Did you run through the setup yes?
+
+[Setup](setup.md)
+
 ## What is so great about the command line?
 - The command line gives us power.
 - The command line gives us productivity.
