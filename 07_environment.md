@@ -4,7 +4,7 @@ The shell environment is configured through a variety of variables called enviro
 
 Try this now:
 ```
-jennapederson:~/workspace $ env
+BabyMac:~ jennapederson$ env
 ```
 
 This prints out the environment in its current state.
@@ -19,10 +19,10 @@ echo "Hello World, $HELLO_WORLD_NAME!"
 
 Try this now [ex. 2](example2):
 ```
-jennapederson:~/workspace $ HELLO_WORLD_NAME='Jenna Pederson' ./hello_world.sh
+BabyMac:~ jennapederson$ HELLO_WORLD_NAME='Jenna Pederson' ./hello_world.sh
 Hello World, Jenna Pederson!
-jennapederson:~/workspace $ env | grep HELLO_WORLD_NAME
-jennapederson:~/workspace $ echo $HELLO_WORLD_NAME
+BabyMac:~ jennapederson$ env | grep HELLO_WORLD_NAME
+BabyMac:~ jennapederson$ echo $HELLO_WORLD_NAME
 ```
 
 ## To Set a Variable for the Current Session
@@ -31,10 +31,10 @@ You can also set variables that are available for the duration of your current s
 
 Try this now [ex. 2](example2):
 ```
-jennapederson:~/workspace $ export HELLO_WORLD_NAME='Jenna Pederson'
-jennapederson:~/workspace $ env | grep HELLO_WORLD_NAME
+BabyMac:~ jennapederson$ export HELLO_WORLD_NAME='Jenna Pederson'
+BabyMac:~ jennapederson$ env | grep HELLO_WORLD_NAME
 HELLO_WORLD_NAME=Jenna Pederson
-jennapederson:~/workspace $ ./hello_world.sh
+BabyMac:~ jennapederson$ ./hello_world.sh
 Hello World, Jenna Pederson!
 ```
 
@@ -44,8 +44,8 @@ To make environment variables persistent across login, you must export them on l
 
 Try this now:
 ```
-jennapederson:~/workspace $ unset HELLO_WORLD_NAME
-jennapederson:~/workspace $ env | grep HELLO_WORLD_NAME
+BabyMac:~ jennapederson$ unset HELLO_WORLD_NAME
+BabyMac:~ jennapederson$ env | grep HELLO_WORLD_NAME
 ```
 
 ## What is the Dollar Sign?

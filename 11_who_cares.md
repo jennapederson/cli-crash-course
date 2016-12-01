@@ -11,7 +11,7 @@ In a unix environment, each command is meant to do one and only one thing. By ch
 ### To see if a java process is running
 
 ```
-jennapederson:~/workspace $ ps -ef | grep java
+BabyMac:~ jennapederson$ ps -ef | grep java
 ```
 
 This can be useful because this command will output the process id. You could even pipe this process id to the kill command to magically kill the java process that was running.
@@ -65,7 +65,7 @@ I have my history set to remember something like 10k of the last commands I've t
 You can pipe the output of history to awk, which  will scan it and print the second argument (the command) of each line to output. The output from awk gets piped into sort, which sorts it alphabetically. The sorted output is piped to uniq and prefixes the command with its count. This is then piped to the sort command again, but it’s now sorted reverse numerically. Finally this is piped to head, which will display (by default) the first 10 lines of its input.
 
 ```
-jennapederson:~/workspace $ history | awk '{print $2}' | sort | uniq -c | sort -rn | head
+BabyMac:~ jennapederson$ history | awk '{print $2}' | sort | uniq -c | sort -rn | head
 3425 git
 1256 cd
  930 ls
@@ -84,8 +84,8 @@ The "du" command checks disk usage. We're going to check the size in kilobyte bl
 
 ```
 
-jennapederson:~/workspace $ cd ~/Music/iTunes/iTunes\ Music/
-action@cli-crash-course-197957:iTunes Music $ du -k * | sort -nr | head
+BabyMac:~ jennapederson$ cd ~/Music/iTunes/iTunes\ Music/
+BabyMac:iTunes Music jennapederson$ du -k * | sort -nr | head
 6508996	Home Videos
 4120428	Compilations
 3941588	Podcasts
@@ -96,7 +96,7 @@ action@cli-crash-course-197957:iTunes Music $ du -k * | sort -nr | head
 560444	Led Zeppelin
 544968	Various Artists
 506908	Common Rotation
-action@cli-crash-course-197957:iTunes Music $
+BabyMac:iTunes Music jennapederson$
 ```
 
 ## Recommendation

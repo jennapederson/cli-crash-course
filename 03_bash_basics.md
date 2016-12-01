@@ -2,16 +2,16 @@
 
 ## What is a Command Prompt?
 
-The command prompt is a character or set of characters that indicate to the user that the command line is ready for input. It’s quite possible that yours will look different than mine, but quite frequently, it ends in a $ or > symbol. On Cloud9, it’s a $.
+The command prompt is a character or set of characters that indicate to the user that the command line is ready for input. It’s quite possible that yours will look different than mine, but quite frequently, it ends in a $ or > symbol.
 
 ```
-jennapederson:~/workspace $
+BabyMac:~ jennapederson$
 ```
 
 When you see instructions here or in other documentation, you will only type the command, omitting the command prompt. For example, when you see this:
 
 ```
-jennapederson:~/workspace $ ls
+BabyMac:~ jennapederson$ ls
 ```
 
 You will only type this:
@@ -26,10 +26,10 @@ To execute the command you have typed, press enter.
 When it runs, it may (or may not!) print output to the screen. You will know it has completed when the command prompt is displayed again. The command line is then ready for new commands.
 
 ```
-jennapederson:~/workspace $
-jennapederson:~/workspace $ ls
+BabyMac:~ jennapederson$
+BabyMac:~ jennapederson$ ls
 Geekettes-1750x1750.png  images  README.md  workspace
-jennapederson:~/workspace $
+BabyMac:~ jennapederson$
 ```
 
 ## Breaking Down a Command
@@ -37,13 +37,13 @@ jennapederson:~/workspace $
 A command is made up of different parts: the main command, options, and arguments.
 
 ```
-jennapederson:~/workspace $ command [OPTIONS] [ARG1] […ARGX]
+BabyMac:~ jennapederson$ command [OPTIONS] [ARG1] […ARGX]
 ```
 
 For example, the copy command `cp` takes options and two arguments:
 
 ```
-jennapederson:~/workspace $ cp -R source destination
+BabyMac:~ jennapederson$ cp -R source destination
 ```
 - cp is the main command
 - -R is an option that indicates copy recursively
@@ -60,7 +60,7 @@ Now is a good time to talk about man pages. Man pages are reference manuals for 
 Try this now:
 
 ```
-jennapederson:~/workspace $ man cp
+BabyMac:~ jennapederson$ man cp
 ```
 
 User your up/down arrows or the space bar to navigate through a man page. To exit a man page, press q.

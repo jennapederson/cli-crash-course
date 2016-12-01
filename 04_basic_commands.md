@@ -37,7 +37,7 @@ Let’s play around with these commands and keystrokes and see what they output.
 
 Try this now:
 ```
-jennapederson:~/workspace $
+BabyMac:~ jennapederson$
 ```
 
 Back: [Basics of the Bash Shell](03_bash_basics.md)

@@ -5,7 +5,7 @@
 This will serve the files in the current directory from a web server.
 
 ```
-jennapederson:~/workspace $ python -m SimpleHTTPServer
+BabyMac:~ jennapederson$ python -m SimpleHTTPServer
 ```
 
 Now navigate to [http://localhost:8000](http://localhost:8000).

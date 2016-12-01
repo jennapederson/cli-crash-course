@@ -14,7 +14,7 @@ Files and directories have different levels of permissions which indicate who ca
 
 Try this now:
 ```
-jennapederson:~/workspace $ ls -l
+BabyMac:~ jennapederson$ ls -l
 total 8
 -rw-rw-r-- 1 ubuntu ubuntu 699 Jul  1 13:37 README.md
 -rw-r--r-- 1 ubuntu ubuntu  32 Sep 13 21:44 hello_world.sh
@@ -29,7 +29,7 @@ Our permissions are shown in the first column of characters in this format:
 Right now, the `hello_world.sh` file is not executable. We're going to fix that.
 
 ```
-jennapederson:~/workspace $ ./hello_world.sh
+BabyMac:~ jennapederson$ ./hello_world.sh
 bash: ./hello_world.sh: Permission denied
 ```
 
@@ -39,8 +39,8 @@ To make the hello_world.sh file executable, we will add execute permissions to t
 
 Try this now:
 ```
-jennapederson:~/workspace $ chmod u+x hello_world.sh
-jennapederson:~/workspace $ ls -l
+BabyMac:~ jennapederson$ chmod u+x hello_world.sh
+BabyMac:~ jennapederson$ ls -l
 total 8
 -rw-rw-r-- 1 ubuntu ubuntu 699 Jul  1 13:37 README.md
 -rwxr--r-- 1 ubuntu ubuntu  32 Sep 13 21:44 hello_world.sh*
@@ -56,7 +56,7 @@ The very first bit, the special flag, usually will indicate whether it is direct
 
 Try this now [ex. 1](example1):
 ```
-jennapederson:~/workspace $ ./hello_world.sh
+BabyMac:~ jennapederson$ ./hello_world.sh
 Hello World!
 ```
 

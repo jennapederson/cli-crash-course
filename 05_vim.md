@@ -34,7 +34,7 @@ When you open the editor, you will be in Command mode. To get back into Command 
 Try this now:
 
 ```
-jennapederson:~/workspace $ vim hello_world.sh
+BabyMac:~ jennapederson$ vim hello_world.sh
 ```
 
 Type the following into the file (we will be using this later):
