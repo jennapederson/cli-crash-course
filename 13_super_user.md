@@ -10,12 +10,12 @@ Use the su command to switch users. To do this, you need to know password of the
 
 To execute a specific command as a different user:
 ```
-BabyMac:~ jennapederson$ su kristen -c touch ~kristen/hello_world.sh
+BabyMac:~ jennapederson$ su postgres -c psql my_database
 ```
 
 To execute all commands as a different user:
 ```
-BabyMac:~ jennapederson$ su kristen
+BabyMac:~ jennapederson$ su postgres
 ```
 
 To execute commands as the root user:
@@ -23,7 +23,7 @@ To execute commands as the root user:
 BabyMac:~ jennapederson$ su
 ```
 
-su is not used as frequently as sudo because it requires you to know someone else's password. In order to remove access to that other user's account the password would need to be changed.
+su is not used as frequently as sudo because it requires you to *know someone else's password*. In order to restrict/prevent access after a password has been shared, the password would need to be changed.
 
 ## sudo
 
