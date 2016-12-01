@@ -27,11 +27,16 @@ su is not used as frequently as sudo because it requires you to know someone els
 
 ## sudo
 
-Use the sudo command to do something as the super/root user. It stands for "super user do". Instead of typing in the root user's password, you type in your own password. Sudo access is managed in a special file called sudoers. There is also an audit trail of which sudoer did what with sudo.
+Use the sudo command to do something as a different user. It stands for "super user do". Instead of typing in the user's password, you type in your own password. Sudo access is managed in a special file called sudoers. There is also an audit trail of which sudoer did what with sudo. Often it is used to execute commands as the root user.
+
+To execute a command as the postgres user:
+```
+BabyMac:~ jennapederson$ sudo -u postgres psql my_database
+```
 
 To execute a command as the root user:
 ```
-BabyMac:~ jennapederson$ sudo touch ~kristen/hello_world.sh
+BabyMac:~ jennapederson$ sudo usermod -a -G developers jennapederson
 ```
 
 ## A Word of Caution
