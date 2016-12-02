@@ -2,7 +2,7 @@
 
 ## Redirecting Input From a File
 
-Taking the previous example, let's read in data from a stdin using file redirection.
+Taking the previous example, let's read in data from stdin using file redirection.
 
 Edit the hello_world.sh file using vim to read a file from stdin:
 ```
