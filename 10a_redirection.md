@@ -17,14 +17,14 @@ done
 Create a new file called names.txt with some data like below. Make sure there is a line at the end of the file.
 ```
 Jenna Pederson
-Twin Cities Geekettes
+612 Software Foundry
 ```
 
 Try this now [ex. 5](example5):
 ```
 BabyMac:~ jennapederson$ ./hello_world.sh < names.txt
 Hello World, Jenna Pederson!
-Hello World, Twin Cities Geekettes!
+Hello World, 612 Software Foundry!
 ```
 
 ## Redirecting Output

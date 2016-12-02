@@ -28,7 +28,13 @@ When it runs, it may (or may not!) print output to the screen. You will know it 
 ```
 BabyMac:~ jennapederson$
 BabyMac:~ jennapederson$ ls
-Geekettes-1750x1750.png  images  README.md  workspace
+Applications
+Desktop
+Development
+Documents
+Downloads
+Dropbox
+...
 BabyMac:~ jennapederson$
 ```
 

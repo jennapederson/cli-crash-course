@@ -6,7 +6,7 @@ Try this now [ex. 7](example7):
 ```
 BabyMac:~ jennapederson$ ./hello_world.sh < names.txt | tee output.txt
 Hello World, Jenna Pederson!
-Hello World, Twin Cities Geekettes!
+Hello World, 612 Software Foundry!
 BabyMac:~ jennapederson$ less output.txt
 ```
 
