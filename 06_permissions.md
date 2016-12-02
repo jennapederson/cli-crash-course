@@ -3,7 +3,7 @@
 Files and directories have different levels of permissions which indicate who can read them, write to them, or even execute them.
 
 ## Permission Levels
-- owner - these permissions apply to the user who owns the file
+- user - these permissions apply to the user who owns the file
 - group - these permissions apply to the group that owns the file
 - other - these apply to everyone else
 
