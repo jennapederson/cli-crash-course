@@ -8,7 +8,7 @@ Vim is an intricate beast. Here we will cover the basics to get you in and out o
 - Command mode - allows you to execute commands on the file
 - Insert mode - allows you to type into the file
 
-When you open the editor, you will be in Insert mode. To get into Command mode, hit your `ESC` key. When you are in Insert mode, you will see this at the bottom of the editor:
+When you open the editor, you will be in Command mode. To get into Insert mode hit the `i` key. To get back into Command mode, hit your `ESC` key. When you are in Insert mode, you will see this at the bottom of the editor:
 
 ```
 -- INSERT --
