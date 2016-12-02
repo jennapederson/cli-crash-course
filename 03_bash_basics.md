@@ -55,9 +55,11 @@ BabyMac:~ jennapederson$ cp -R source destination
 - -R is an option that indicates copy recursively
 - source and destination are both arguments to this command
 
-## Open Your Cloud9 Workspace
+## Open Your Terminal
 
-Go to your [Cloud9 dashboard](https://c9.io/dashboard.html) and click Open for the cli-crash-course workspace you have already created.
+- If you’re on a Mac, hit CMD+Space and type terminal. Hit enter after selecting Terminal.
+- If you're on Linux/Unix, open up the console or terminal application (it is assumed you already know how to do this).
+- If you're using Cloud9, go to your [Cloud9 dashboard](https://c9.io/dashboard.html) and click Open for the cli-crash-course workspace you have already created.
 
 ## Man Pages
 
