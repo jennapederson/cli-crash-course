@@ -16,6 +16,17 @@ BabyMac:~ jennapederson$ ps -ef | grep java
 
 This can be useful because this command will output the process id. You could even pipe this process id to the kill command to magically kill the java process that was running.
 
+### To add your logo to the lower right corner of all your photos
+
+Here we are piping the output of the `ls` command to a `while` loop which reads over each line which we've shoved into a variabled called `img`. Then we call the composite command and pass in the `img` to be processed and written out to a different directory.
+
+```
+BabyMac:~ jennapederson$ ls HTG*.jpg | while read img
+do
+    composite -geometry +90+90 -gravity SouthEast hackthegap-logo-no-date1200.png $img processed/$img
+done
+```
+
 ### To find your favorite command
 
 I have my history set to remember something like 10k of the last commands I've typed but sometimes I don't remember what the specific command is I am looking for.
