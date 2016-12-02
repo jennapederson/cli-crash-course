@@ -20,11 +20,11 @@ BabyMac:~ jennapederson$ ./hello_world.sh Jenna Pederson
 Hello World, Jenna Pederson!
 ```
 
-## Reading From Stdin
+## Reading Interactively From The User
 
-You can read input from a user interactively through stdin.
+You can read input from a user interactively.
 
-Let’s edit the `hello_world.sh` file using vim to prompt and read user input from stdin:
+Let’s edit the `hello_world.sh` file using vim to prompt and read input from the user:
 ```
 #!/bin/bash
 echo -n "What is your name? "
