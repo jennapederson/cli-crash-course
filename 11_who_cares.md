@@ -6,6 +6,10 @@ Why is all of this so important?
 
 In a unix environment, each command is meant to do one and only one thing. By chaining commands and data together using piping and redirection you get more flexibility.
 
+## Recommendation
+
+When stringing commands together like this, test them each individually to build up the final command.
+
 ## Examples
 
 ### To see if a java process is running
@@ -109,10 +113,6 @@ BabyMac:iTunes Music jennapederson$ du -k * | sort -nr | head
 506908	Common Rotation
 BabyMac:iTunes Music jennapederson$
 ```
-
-## Recommendation
-
-When stringing commands together like this, test them each individually to build up the final command.
 
 Back: [Piping Commands Together](10b_piping.md)
 Forward: [Crossing the Bounds of Your Computer](12_remote.md)
