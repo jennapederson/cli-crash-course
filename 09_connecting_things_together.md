@@ -1,6 +1,20 @@
 # Connecting Things Together
 
-Normally output goes to stdout, the screen, and input comes from stdin, the keyboard. Sometimes we don't want this. We can redirect output and input to/from a file and to combine several commands together with redirection and piping.
+Normally output and errors goes to stdout, the terminal, and input comes from stdin, the keyboard. Stdin, stdout, and stderr are data streams.
+
+
+```
+                    +---------------+ 
+                    |               |-----> STDOUT(1)
+     STDIN(0) ----->|    Program    |
+                    |               |
+                    +---------------+ 
+                               |
+                               |
+                               +------> STDERR(2)
+```
+
+Sometimes we don't want this. We can move data from output/input/error streams to/from a file using redirection. We can also combine several commands together with piping.
 
 ## Redirection
 
