@@ -14,7 +14,7 @@ do
 done
 ```
 
-Create a new file called names.txt with some data like below. Make sure there is a line at the end of the file.
+Create a new file called names.txt with some data like below.
 ```
 Jenna Pederson
 612 Software Foundry
