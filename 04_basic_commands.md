@@ -11,6 +11,7 @@
 - `less` - page back and forth through a file without opening up a text editor
 - `cat` - concatenates files and prints them
 - `man` - view the man pages for a command
+- `which` - locates a command on your path
 - `touch` - change the timestamp of a file (or creates it if it doesn’t already exist)
 - `grep` - find a string within directory/files
 - `echo` - print something out
