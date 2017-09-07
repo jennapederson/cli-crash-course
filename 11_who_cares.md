@@ -31,7 +31,7 @@ do
 done
 ```
 
-### To find your favorite command
+### To find a specific command you've used
 
 I have my history set to remember something like 10k of the last commands I've typed but sometimes I don't remember what the specific command is I am looking for.
 
@@ -75,7 +75,7 @@ I have my history set to remember something like 10k of the last commands I've t
 10018  cap staging deploy
 ```
 
-### To see your favorite commands
+### To see your most used commands
 
 You can pipe the output of history to awk, which  will scan it and print the second argument (the command) of each line to output. The output from awk gets piped into sort, which sorts it alphabetically. The sorted output is piped to uniq and prefixes the command with its count. This is then piped to the sort command again, but it’s now sorted reverse numerically. Finally this is piped to head, which will display (by default) the first 10 lines of its input.
 
