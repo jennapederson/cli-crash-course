@@ -11,7 +11,9 @@ BabyMac:~ jennapederson$ ls -a
 
 ## Dotfile Resources
 
-GitHub has a great resource of other people's dotfiles: https://dotfiles.github.io/
+GitHub has a great resource of other people's dotfiles: https://dotfiles.github.io/.  
+
+And you can find mine, right here: https://github.com/jennapederson/dotfiles.
 
 Back: [Super User](13_super_user.md)
 Forward: [Customizing Your Shell](15_shell_customization.md)
